@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Treviso</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg w-100 m-0 p-2" style="background-color: #804611;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homepage.html">
+                <img src="logo.png" alt="Treviso Logo" width="50" height="50"
+                    class="d-inline-block align-text-top rounded-circle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav test">
+                    <a class="nav-link text-white" href="#home">Home</a>
+                    <a class="nav-link text-white" href="#whoarewe">Who are we?</a>
+                    <a class="nav-link text-white" href="#todo">To do</a>
+                    <a class="nav-link text-white" href="#events">Events</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/River1.jpg" class="d-block w-100" alt="Timeless Beauty">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Timeless Beauty</h5>
+                    <p>Classic European streets perfectly reflected on a calm, green waterway.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Fountain.jpg" class="d-block w-100" alt="Hidden Square">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hidden Square</h5>
+                    <p>A peaceful, enclosed courtyard featuring elegant stone benches.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Piazza.jpg" class="d-block w-100" alt="Heart of the City">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Heart of the City</h5>
+                    <p>A grand public square featuring ornate lampposts.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/River2.jpg" class="d-block w-100" alt="Scenic Canal Walk">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Scenic Canal Walk</h5>
+                    <p>A picturesque city promenade along a calm waterway.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Who are we? -->
+    <div data-aos="zoom-in">
+        <h3 class="text-sep" id="whoarewe">Who we are?</h3>
+        <hr class="solid">
+        <div data-aos="zoom-in">
+            <div class="mb-4">
+                <div class="row cardrow">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Garden.jpg" class="card-img-top pop-out" style="cursor: zoom-in;"
+                                alt="The Garden of Venice">
+                            <div class="card-body">
+                                <h5 class="card-title">The Garden of Venice</h5>
+                                <p class="card-text">Historically the "orchard" and summer retreat for Venetian
+                                    nobility,
+                                    our landscape is defined by the UNESCO World Heritage Prosecco Hills and the
+                                    elegant
+                                    Palladian-style villas that line our countryside. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Water.jpg" class="card-img-top pop-out" style="cursor: zoom-in;"
+                                alt="A City of Water and Art">
+                            <div class="card-body">
+                                <h5 class="card-title">A City of Water and Art</h5>
+                                <p class="card-text">We are a "città d'acqua," where the Sile River creates a
+                                    natural
+                                    mirror
+                                    for our medieval walls and Renaissance frescoes. Walking through Treviso is like
+                                    moving
+                                    through an open-air gallery of "painted stories" on every facade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Hub.jpg" class="card-img-top pop-out" style="cursor: zoom-in;"
+                                alt='The Hub of "Made in Italy"'>
+                            <div class="card-body">
+                                <h5 class="card-title">The Hub of "Made in Italy"</h5>
+                                <p class="card-text">Beyond our beauty, we are a powerhouse of Business Intelligence
+                                    and
+                                    Creativity. We are the home of world-class craftsmanship, from high-end fashion
+                                    and
+                                    cycling technology to the technical expertise of the Treviso Film Commission.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Home.jpg" class="card-img-top pop-out" style="cursor: zoom-in;"
+                                alt="The Home of the Italian Aperitivo">
+                            <div class="card-body">
+                                <h5 class="card-title">The Home of the Italian Aperitivo</h5>
+                                <p class="card-text">We represent the authentic Italian lifestyle. Whether it is the
+                                    crunch
+                                    of our world-famous Radicchio Rosso or the global legacy of Tiramisù, we believe
+                                    that
+                                    every meeting should begin with a glass of local wine and a warm welcome.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- To Do -->
+    <div data-aos="zoom-in">
+        <h3 class="text-sep" id="todo">To do</h3>
+        <hr class="solid">
+        <div class="mb-4">
+            <div class="row cardrow">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/walk.jpg"
+                            class="card-img-top pop-out" style="cursor: zoom-in;"
+                            alt='Walk the "Città Dipinta" (The Painted City)'>
+                        <div class="card-body">
+                            <h5 class="card-title">Walk the "Città Dipinta" (The Painted City)</h5>
+                            <p class="card-text"> Explore the historic center to admire the unique medieval
+                                and
+                                Renaissance frescoes that decorate the building facades, especially around
+                                Piazza
+                                dei Signori and the Loggia dei Cavalieri.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/restera.jpg"
+                            class="card-img-top pop-out" style="cursor: zoom-in;"
+                            alt='Explore the "Restera" along the Sile'>
+                        <div class="card-body">
+                            <h5 class="card-title">Explore the "Restera" along the Sile</h5>
+                            <p class="card-text">Stroll along the scenic Buranelli canal and visit the Isola
+                                della
+                                Pescheria, a small river island that has hosted the city’s historic fish
+                                market
+                                for
+                                centuries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/boat.jpg"
+                            class="card-img-top pop-out" style="cursor: zoom-in;"
+                            alt='Discover the Canals and Pescheria'>
+                        <div class="card-body">
+                            <h5 class="card-title">Discover the Canals and Pescheria</h5>
+                            <p class="card-text">Walk or cycle the nature path following the Sile River. This peaceful route leads to the "Burci Cemetery," where ancient wooden cargo boats are submerged in the water.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/misu.webp"
+                            class="card-img-top pop-out" style="cursor: zoom-in;"
+                            alt="The Home of the Italian Aperitivo">
+                        <div class="card-body">
+                            <h5 class="card-title">The Home of the Italian Aperitivo</h5>
+                            <p class="card-text">Visit the local restaurants and pastry shops in the city
+                                center
+                                to
+                                taste the world-famous dessert in its authentic birthplace, often paired
+                                with a
+                                glass of local Prosecco.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Events -->
+    <h3 class="text-sep" id="events">Events</h3>
+    <hr class="solid">
+    <div data-aos="zoom-in">
+        <div class="mb-4">
+            <div class="row cardrow">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/2347.jpg"
+                            class="card-img-top pop-out" style="cursor: zoom-in;" alt='Treviso Comic Book Festival'>
+                        <div class="card-body">
+                            <h5 class="card-title">Treviso Comic Book Festival</h5>
+                            <p class="card-text">This event transforms the city's shop windows into canvases for
+                                international illustrators. The historic center becomes an open-air gallery
+                                dedicated to contemporary comics and illustration, with exhibitions in ancient
+                                palaces and creative workshops.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/burn.jpg"
+                            class="card-img-top pop-out" style="cursor: zoom-in;"
+                            alt="Concerto dell'Epifania e Tradizioni Popolari">
+                        <div class="card-body">
+                            <h5 class="card-title">Concerto dell'Epifania e Tradizioni Popolari</h5>
+                            <p class="card-text">Il periodo invernale è segnato dai tradizionali falò chiamati
+                                "Panevin", accesi nelle campagne circostanti, e da concerti di musica sacra e
+                                corale nelle antiche chiese cittadine, che preservano il folklore locale e il
+                                senso di comunità.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/fair.jpg" class="card-img-top pop-out"
+                            style="cursor: zoom-in;" alt='Traditional Town Fairs (Sagre di Paese)'>
+                        <div class="card-body">
+                            <h5 class="card-title">Traditional Town Fairs (Sagre di Paese)</h5>
+                            <p class="card-text">Throughout the year, the surrounding villages celebrate their
+                                heritage with "Sagre." These community festivals feature long tables in town
+                                squares where you can enjoy authentic local recipes, traditional music, and a
+                                festive atmosphere that captures the true heart of the region.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/float.jpg"
+                            class="card-img-top pop-out" style="cursor: zoom-in;"
+                            alt="The Carnival Float Parade">
+                        <div class="card-body">
+                            <h5 class="card-title">The Carnival Float Parade</h5>
+                            <p class="card-text">During the Carnival season, the city streets are taken over by
+                                massive, colorful allegorical floats and choreographed groups. It is a
+                                spectacular family-friendly celebration featuring traditional Venetian masks and
+                                festive parades through the main squares.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Seasonal events -->
+    <h3 class="text-sep" id="events">Seasonal events</h3>
+    <hr class="solid">
+    <!-- Winter -->
+    <h4 class="text-sep" id="events">Winter | Spring <br> events</h4>
+    <hr class="dashed">
+    <div data-aos="zoom-in">
+        <div class="mb-4">
+            <div class="row cardrow">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/Panevin.webp" class="card-img-top pop-out" style="cursor: zoom-in;" alt='Panevin & Carnival'>
+                        <div class="card-body">
+                            <h5 class="card-title">Panevin & Carnival</h5>
+                            <p class="card-text">Traditional bonfires to "predict" the harvest (Jan 5) and allegorical
+                                float parades ending with the symbolic burning of the "Burlo."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/radicchio.webp" class="card-img-top pop-out" style="cursor: zoom-in;" alt="Radicchio Festivals">
+                        <div class="card-body">
+                            <h5 class="card-title">Radicchio Festivals</h5>
+                            <p class="card-text">Peak season for Radicchio Rosso di Treviso IGP with dedicated tasting
+                                menus and local fairs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/flower.jpg" class="card-img-top pop-out" style="cursor: zoom-in;" alt='Flowers & Art'>
+                        <div class="card-body">
+                            <h5 class="card-title">Flowers & Art</h5>
+                            <p class="card-text">The city becomes a botanical garden during Treviso in Fiore,
+                                complemented by major international art exhibitions at Ca’ dei Carraresi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/marathon.jpg" class="card-img-top pop-out" style="cursor: zoom-in;" alt="Treviso Marathon">
+                        <div class="card-body">
+                            <h5 class="card-title">Treviso Marathon</h5>
+                            <p class="card-text">A massive sporting event connecting the surrounding hills to the city
+                                center.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h4 class="text-sep" id="events">Summer | Fall <br> events</h4>
+    <hr class="dashed">
+    <div data-aos="zoom-in">
+        <div class="mb-4">
+            <div class="row cardrow">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/music.jpg" class="card-img-top pop-out" style="cursor: zoom-in;" alt='San Giovanni & Music'>
+                        <div class="card-body">
+                            <h5 class="card-title">San Giovanni & Music</h5>
+                            <p class="card-text">Fireworks over the Sile River (June) and Suoni di Marca, a major free
+                                festival featuring live music and local food on the city walls.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/air.jpg" class="card-img-top pop-out" style="cursor: zoom-in;" alt=" Open-Air Culture">
+                        <div class="card-body">
+                            <h5 class="card-title"> Open-Air Culture</h5>
+                            <p class="card-text">Classical concerts and opera performances held in historic squares like
+                                Piazza dei Signori.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/tiramisu.png" class="card-img-top pop-out" style="cursor: zoom-in;" alt='Creativity & Taste'>
+                        <div class="card-body">
+                            <h5 class="card-title">Creativity & Taste</h5>
+                            <p class="card-text">The Comic Book Festival decorates the city in September, followed by
+                                the Tiramisù World Cup and Prosecco harvest festivals in the hills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/enchanted.png" class="card-img-top pop-out" style="cursor: zoom-in;" alt="Enchanted Treviso">
+                        <div class="card-body">
+                            <h5 class="card-title">Enchanted Treviso</h5>
+                            <p class="card-text">December features floating nativity scenes, Christmas markets, and
+                                elegant light displays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="mb-4">FONDAZIONE MARCA TREVISO</h5>
+                    <p class="mb-4">person in charge of the technical-administrative
+                        coordination of the O.G.D.
+                        Cities of Art and Venetian Villas in the Treviso area
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="mb-4">QUICK LINKS</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="footer-link">Home</a></li>
+                        <li class="mb-2"><a href="#whoarewe" class="footer-link">Who are we?</a>
+                        </li>
+                        <li class="mb-2"><a href="#todo" class="footer-link">To Do</a></li>
+                        <li class="mb-2"><a href="#events" class="footer-link">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="mb-4">CONTACT INFO</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            Piazza Borsa 4, Treviso (31100)
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-phone me-2"></i>
+                            <a href="tel:+390422595790" class="footer-link">+39 0422 595790</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-envelope me-2"></i>
+                            <a href="mailto:info@marcatreviso.it" class="footer-link">info@marcatreviso.it</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <hr class="mb-4">
+                    <div class="text-center">
+                        <p class="mb-0">&copy; 2024 Your Company. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
